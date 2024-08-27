@@ -18,7 +18,7 @@ export default function HomeScreen() {
             }>
             <ThemedView style={styles.titleContainer}>
                 <ThemedText>{library.add()}</ThemedText>
-                <ThemedText type="title">Welcome!</ThemedText>
+                <ThemedText type="title">TWOTOT!</ThemedText>
                 <HelloWave />
             </ThemedView>
 
