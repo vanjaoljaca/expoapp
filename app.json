@@ -13,7 +13,11 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vanjaoljaca.expoapp",
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -31,6 +35,17 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "7428c172-bd99-4f09-88c9-98319749bf52"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/7428c172-bd99-4f09-88c9-98319749bf52"
     }
   }
 }
